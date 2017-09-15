@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/* 采用何种方式解析CSS */
+
+
+/*全体标签 */
+
+* {
+	font-family: "Microsoft YaHei UI";
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+dl,
+dt,
+dd {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	height: 70px;
+	background-color: gray;
+	position: relative;
+}
+
+header>span {
+	display: block;
+	position: absolute;
+	height: 100%;
+	top: 50%;
+	left: 10px;
+	transform: translate(0, -25%);
+}
+
+ul {
+	float: right;
+	height: 100%
+}
+
+ul>li {}
+
+ul>li>a {
+	font-size: 10px;
+	color: #fff;
+}
